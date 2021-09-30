@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+@charset "utf-8";
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+.padre{
+	
+	width:100%;
+	background-image: url(../imagen/huellitas.png);
+	background-color:#333334;
+    background-size: contain;
+}
+
+.cabecera{
+    background-color:#DBD4D1;
+    background-size: contain;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    height: 200px;
+    padding_button: 10px #000; 
+}
+
+.titulo{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+
+}
+
+.container_titulologo{
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#DBD4D1;
+    
+
+}
+
+.logo{
+    background-image: url(imagen/logo-05.svg) !important;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+
+}
+
+.navegacion{
+
+    background:0;
+    margin-left: auto;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+li{
+   display: inline;      
+}
+ul{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}

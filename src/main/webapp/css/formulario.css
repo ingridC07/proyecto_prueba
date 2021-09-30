@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+.padre{
+	
+	width:100%;
+	background-color:#fff;
+	
+}
+
+.contenedor-form{
+	margin: auto; 
+	width: 30%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #81817D;
+    border-radius: 5px;
+	
+}
